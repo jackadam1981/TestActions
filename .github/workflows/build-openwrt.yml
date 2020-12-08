@@ -81,6 +81,7 @@ jobs:
 
     - name: Load custom configuration
       run: |
+        cd openwrt
         make defconfig
         
     - name: Download package
